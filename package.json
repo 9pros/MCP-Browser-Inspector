@@ -1,7 +1,7 @@
 {
   "name": "mcp-browser-inspector",
-  "version": "0.1.0",
-  "description": "MCP tool for browser inspection, element selection, and responsive testing",
+  "version": "0.2.0",
+  "description": "MCP tool for browser inspection, element selection, interactive messaging, and responsive testing",
   "main": "build/index.js",
   "type": "module",
   "bin": {
@@ -30,10 +30,15 @@
     "web-development",
     "responsive",
     "testing",
+    "interactive",
+    "messaging",
+    "element-selection",
+    "visual-feedback",
+    "floating-ui",
     "claude",
     "anthropic"
   ],
-  "author": "Your Name",
+  "author": "9pros",
   "license": "MIT",
   "repository": {
     "type": "git",

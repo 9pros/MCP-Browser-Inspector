@@ -1,14 +1,18 @@
 # MCP Browser Inspector
 
-A Model Context Protocol (MCP) tool for inspecting and modifying web elements with responsive testing capabilities.
+A Model Context Protocol (MCP) tool for inspecting and modifying web elements with responsive testing capabilities and interactive messaging.
 
 ## Features
 
-- **Element Selection**: Easily select and inspect any element on a webpage
-- **Responsive Testing**: Test your website at different device resolutions
-- **Element Information**: View detailed information about selected elements (HTML, CSS)
-- **Modification Requests**: Submit requests to modify selected elements
-- **Toggle Mode**: Switch between browsing and selection modes
+- **Floating UI**: Convenient floating icon in the bottom-right corner that stays visible on all pages
+- **Interactive Toolbar**: Expandable toolbar with action buttons for element selection and resolution changes
+- **Element Selection**: Easily select and inspect any element on a webpage with visual highlighting
+- **Visual Feedback**: Elements highlight in red when hovering and turn green when selected
+- **Message Communication**: Send messages about selected elements through an interactive dialog
+- **Responsive Testing**: Test your website at different device resolutions with a fully resizable browser
+- **Element Information**: View detailed information about selected elements (HTML, CSS) and associated messages
+- **Modification Requests**: Submit requests to modify selected elements in real-time
+- **Toggle Mode**: Switch between browsing and selection modes with clear visual indicators
 
 ## Installation
 
