@@ -5,7 +5,7 @@
   "main": "build/index.js",
   "type": "module",
   "bin": {
-    "mcp-browser-inspector": "./build/index.js"
+    "mcp-browser-inspector": "build/index.js"
   },
   "scripts": {
     "build": "tsc",
