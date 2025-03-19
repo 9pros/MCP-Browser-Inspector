@@ -1,0 +1,49 @@
+{
+  "name": "mcp-browser-inspector",
+  "version": "0.1.0",
+  "description": "MCP tool for browser inspection, element selection, and responsive testing",
+  "main": "build/index.js",
+  "type": "module",
+  "bin": {
+    "mcp-browser-inspector": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "prepublishOnly": "npm run build && cp NPM_README.md README.md",
+    "postpublish": "git checkout -- README.md",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.1.0",
+    "puppeteer": "^21.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "browser",
+    "inspector",
+    "web-development",
+    "responsive",
+    "testing",
+    "claude",
+    "anthropic"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/mcp-browser-inspector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/mcp-browser-inspector/issues"
+  },
+  "homepage": "https://github.com/yourusername/mcp-browser-inspector#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
